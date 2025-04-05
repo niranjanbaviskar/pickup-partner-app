@@ -1,0 +1,109 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+    background-color: white !important;
+  /* background-color: rgb(105, 177, 177); */
+  color: black;
+}
+.name {
+  display: flex;
+}
+
+.name >div > p:nth-child(1) {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-left: 30px;
+  color: brown;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.name >div > p:nth-child(2) {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-left: 30px;
+  color: brown;
+  margin-right: 0px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+.name > img {
+  width: 120px;
+  height: 80px;
+}
+
+.menubar {
+  background-color: #27282c;
+  float: left;
+  width: 100%;
+  position: relative;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 50px;
+  gap: 2%;
+}
+.menubar > button,
+.btn {
+  height: 100%;
+  width: 180px;
+  color: white;
+  background-color: #27282c;
+}
+.btn:hover,
+.menubar > button:hover {
+  color: red;
+}
+
+.location,
+.mail {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.location > p,
+.mail > p {
+  font-size: x-large;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 0px;
+}
+input {
+  margin-top: 10px;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  outline: none;
+  border-radius: 8px;
+}
+.form {
+  padding-bottom: 50px;
+}
+
+label {
+  width: 250px;
+  font-size: large;
+  font-weight: 500;
+}
+select {
+  font-size: medium;
+  font-weight: 400;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.submit {
+  margin-left: 150px;
+  width: 150px;
+  background-color: orangered;
+  color: white;
+  font-weight: 400;
+  font-size: large;
+}
+.location > img,
+.mail > img {
+  height: 50px;
+}
